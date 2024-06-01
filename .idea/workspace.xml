@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a86cfb20-6563-417b-a476-e537b6780893" name="Changes" comment="feat: add gin dependencie" />
+    <list default="true" id="a86cfb20-6563-417b-a476-e537b6780893" name="Changes" comment="feat: add user model">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fernode&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fernode/goBookStore.git&quot;,
+    &quot;accountId&quot;: &quot;6b709558-f0c0-427d-8796-d64fefbb1476&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -52,6 +68,11 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -84,7 +105,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add gin dependenci" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add gin dependenci" />
+    <MESSAGE value="feat: add gin dependencie" />
+    <MESSAGE value="feat: add login config" />
+    <MESSAGE value="feat: add user model" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add user model" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
