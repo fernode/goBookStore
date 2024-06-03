@@ -31,9 +31,8 @@ func main() {
 		c.Next()
 	})
 
-	routes.AuthRoutes(router, db)
+	routes.InitRoutes(router)
 
-	// Start the server and listen on port 8080
 	err = router.Run(config.EnvConfigs.LocalServerPort)
 	if err != nil {
 		return

@@ -51,6 +51,6 @@ func getAuthMiddleware(db *gorm.DB) (*jwt.GinJWTMiddleware, error) {
 }
 
 func Login(c *gin.Context) {
-	authMiddleware, _ := getAuthMiddleware(c.MustGet("db").(*gorm.DB)) // Assuming you have a db middleware
+	authMiddleware, _ := getAuthMiddleware(c.MustGet("db").(*gorm.DB))
 	authMiddleware.LoginHandler(c)
 }
